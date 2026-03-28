@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * Task 3: Calculate sum of powers: b⁰ + b¹ + b² + ... + bⁿ using recursion
  * Time Complexity: O(n) - Linear
@@ -24,7 +23,6 @@ public class Task3_PowerSum {
 
         System.out.print("Enter exponent (n): ");
         int n = scanner.nextInt();
-
         int result = powerSum(b, n);
 
         // Display the calculation
