@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * Task 2: Calculate sum of first n elements of an array using recursion
  * Time Complexity: O(n) - Linear
