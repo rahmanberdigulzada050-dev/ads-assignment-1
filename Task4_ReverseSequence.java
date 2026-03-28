@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * Task 4: Display sequence in reverse order using recursion
  * No arrays, no loops allowed
@@ -16,10 +15,8 @@ public class Task4_ReverseSequence {
 
         // Read the number
         int num = scanner.nextInt();
-
         // Recursive call for remaining numbers
         readAndReverse(n - 1, scanner);
-
         // Print after recursion (this creates reverse order)
         System.out.print(num + " ");
     }
